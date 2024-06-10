@@ -17,8 +17,8 @@ export default function Home() {
           <Sidebar onSelect={handleComponentChange} />
         </div>
         <div className="w-3/4">
-          {selectedComponent === "ComponentOne" && <Wallets />}
-          {selectedComponent === "ComponentTwo" && <LastTransaction />}
+          {selectedComponent === "Wallets" && <Wallets />}
+          {selectedComponent === "LastTransaction" && <LastTransaction />}
         </div>
       </div>
     </main>

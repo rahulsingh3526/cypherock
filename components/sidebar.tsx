@@ -7,8 +7,10 @@ export const Sidebar = ({ onSelect }: SidebarProps) => {
     <div>
       {" "}
       <div className="flex flex-col ">
-        <button onClick={() => onSelect("ComponentOne")}>Component One</button>
-        <button onClick={() => onSelect("ComponentTwo")}>Component Two</button>
+        <button onClick={() => onSelect("Wallets")}>Component One</button>
+        <button onClick={() => onSelect("LastTransaction")}>
+          Component Two
+        </button>
       </div>
     </div>
   );
